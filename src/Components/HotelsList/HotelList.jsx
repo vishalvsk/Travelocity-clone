@@ -116,6 +116,7 @@ export const HotelList = () => {
         setData(data);
         setHotels(data);
         setloading(false);
+        console.log(data);
       })
       .catch((err) => {
         console.log(err);
